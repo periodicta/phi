@@ -24,7 +24,7 @@
 </head>
 <body x-data="{'darkMode': false}" x-init="
   darkMode = JSON.parse(localStorage.getItem('darkMode'));
-  $watch('darkMode', value => localStorage.setItem('darkMode', JSON.stringify(value)))"><div :class="{'dark': darkMode === true}"><div class="min-h-screen bg-white dark:bg-gray-900 dark:text-gray-100">
+  $watch('darkMode', value => localStorage.setItem('darkMode', JSON.stringify(value)))" class = "bg-black"><div :class="{'dark': darkMode === true}"><div class="min-h-screen bg-white dark:bg-gray-900 dark:text-gray-100">
   <nav class="px-2 bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
     <div class="container flex flex-wrap items-center justify-between mx-auto">
       <a href="#" class="flex items-center">
