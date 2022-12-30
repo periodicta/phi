@@ -1,3 +1,4 @@
 baseurl: "/phi"
 note: "happy"
 url: "https://periodicta.github.io"
+markdown: kramdown
