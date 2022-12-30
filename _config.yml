@@ -1,3 +1,2 @@
-baseurl: "/phi"
-url: "https://periodicta.github.io"
+baseurl: "https://periodicta.github.io/phi"
 markdown: kramdown
