@@ -1,4 +1,4 @@
 ---
-title: Problems
+title: Home
 layout: home
 ---
