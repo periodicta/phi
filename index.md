@@ -1,4 +1,4 @@
 ---
-title: fewafeawfe
+title: Note Home
 layout: home
 ---
