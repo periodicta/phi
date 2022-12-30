@@ -30,7 +30,7 @@
   $watch('darkMode', value => localStorage.setItem('darkMode', JSON.stringify(value)))" class = "bg-black"><div :class="{'dark': darkMode === true}"><div class="min-h-screen bg-white dark:bg-gray-900 dark:text-gray-100">
   <nav class="px-2 bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
     <div class="container flex flex-wrap items-center justify-between mx-auto">
-      <a href= {% link index.md %} class="flex items-center">
+      <a href= "{{site.baseurl}} + introduction.md" class="flex items-center">
         <svg  version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="40" height="40"
   viewBox="0 0 135.4 131.601" overflow="visible" enable-background="new 0 0 135.4 131.601" xml:space="preserve" fill = "#1d4ed8">
 <g>
