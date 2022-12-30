@@ -92,7 +92,13 @@
       </div>
     </div>
   </nav>
-  {{ content }} {% if page.title == "Home" %} Home {% else %} Not Home {% endif %}
+  {{ content }} {% if customer.name == "kevin" %}
+  Hey Kevin!
+{% elsif customer.name == "anonymous" %}
+  Hey Anonymous!
+{% else %}
+  Hi Stranger!
+{% endif %}
   <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
   <script src="https://unpkg.com/flowbite@1.5.5/dist/flowbite.js"></script>
 </body></div></div>
