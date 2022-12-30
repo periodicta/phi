@@ -1,4 +1,4 @@
 ---
 title: Home
-layout: Home
+layout: home
 ---
