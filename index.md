@@ -1,5 +1,4 @@
 ---
-title: Note Home
+title: Home
 layout: home
-platform: windows
 ---
