@@ -91,9 +91,9 @@
     </div>
   </nav>
   {{ content }} 
-{% if page.platform == "mac" %}
+{% if page.title == "mac" %}
 Here's some info about the Mac.
-{% elsif page.platform == "windows" %}
+{% elsif page.title == "windows" %}
 Here's some info about Windows ...
 {% else %}
 Halp
