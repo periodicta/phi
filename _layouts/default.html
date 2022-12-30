@@ -90,7 +90,11 @@
       </div>
     </div>
   </nav>
-  {{ content }}
+  {{ content }} {% if page.platform == "mac" %}
+Here's some info about the Mac.
+{% elsif page.platform == "windows" %}
+Here's some info about Windows ...
+{% endif %}
   <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
   <script src="https://unpkg.com/flowbite@1.5.5/dist/flowbite.js"></script>
 </body></div></div>
